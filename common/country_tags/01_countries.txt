@@ -1,0 +1,3 @@
+KOS	= "countries/Kosovo.txt"
+KAR = "countries/Karelia.txt"
+CON = "countries/Connacht.txt"

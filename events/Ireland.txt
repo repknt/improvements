@@ -1,0 +1,45 @@
+add_namespace = ireland
+
+# Seize Northern Ireland
+country_event = {
+	id = ireland.1
+	title = ireland.1.t
+	desc = ireland.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = ireland.1.a
+		
+		add_stability = -0.05
+		if = {
+			limit = {
+				AND = {
+					119 = {
+						is_owned_by = ENG
+					}
+					ENG = {
+						OR = {
+							has_completed_focus = ENG_the_kings_party
+							has_completed_focus = ENG_organize_the_blackshirts
+						}
+					}
+				}
+			}
+			
+			IRE = {
+				transfer_state = 119
+			}
+		}
+	}
+
+	option = {
+		name = ireland.1.b
+		# do nothing
+	}
+}
