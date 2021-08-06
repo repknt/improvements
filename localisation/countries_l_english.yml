@@ -3187,3 +3187,9 @@
  HKO_subject:1 "$OVERLORDADJ$ Hong Kong"
  HKO_DEF:0 "Hong Kong"
  HKO_ADJ:0 "Hongkonger"
+
+ TEX:0 "Texas"
+ TEX_USA_subject:0 "State of Texas"
+ TEX_MEX_subject:0 "Estado de Tejas" # haha texmex
+ TEX_DEF:0 "Texas"
+ TEX_ADJ:0 "Texan"

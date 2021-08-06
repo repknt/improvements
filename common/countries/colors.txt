@@ -715,3 +715,7 @@ HKO = {
 	color = rgb { 222 41 16 }
 	color_ui = rgb { 222 41 16 }
 }
+TEX = {
+	color = rgb { 0 40 104 }
+	color_ui = rgb { 0 40 104 }
+}
