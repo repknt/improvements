@@ -3180,3 +3180,10 @@
  CON:0 "Connaught"
  CON_DEF:0 "Connaught"
  CON_ADJ:0 "?"
+
+ HKO:0 "Hong Kong"
+ HKO_PRC_subject:0 "Hong Kong Special Administrative Region"
+ HKO_CHI_subject:0 "Autonomous Region of Hong Kong"
+ HKO_subject:1 "$OVERLORDADJ$ Hong Kong"
+ HKO_DEF:0 "Hong Kong"
+ HKO_ADJ:0 "Hongkonger"

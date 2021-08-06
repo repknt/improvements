@@ -711,3 +711,7 @@ CON = {
 	color = rgb { 12 28 141 }
 	color_ui = rgb { 12 28 141 }
 }
+HKO = {
+	colors = rgb { 222 41 16 }
+	color_ui = rgb { 222 41 16 }
+}
