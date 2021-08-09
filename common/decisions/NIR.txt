@@ -5,7 +5,7 @@ NIR_reunite_ulster_cat = {
 			original_tag = NIR
 		}
 		available = {
-
+			has_government = neutrality
 		}
 		visible = {
 			has_government = neutrality
