@@ -5605,6 +5605,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
 
+	# new imp icons
 	spriteType = {
 		name = "GFX_idea_lone_star"
 		texturefile = "gfx/interface/ideas/lone_star.dds"
