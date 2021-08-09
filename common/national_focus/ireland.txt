@@ -16,7 +16,7 @@
 
 # 	continuous_focus_position = { x = 50 y = 1500 }
 
-# 	# Partitioned, democratic (This will prevent you from ever reuniting *sad provo noises*)
+# 	# Partitioned, democratic (This will prevent you from ever reuniting, unless...)
 # 	focus = {
 # 		id = IRE_adhere_to_the_treaty
 # 		icon = GFX_
