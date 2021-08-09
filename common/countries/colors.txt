@@ -719,3 +719,7 @@ TEX = {
 	color = rgb { 0 40 104 }
 	color_ui = rgb { 0 40 104 }
 }
+IOM = {
+	color = rgb { 207 20 43 }
+	color_ui = rgb { 207 20 43 }
+}

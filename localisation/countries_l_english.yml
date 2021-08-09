@@ -3179,7 +3179,7 @@
  KAR_ADJ:0 "Karelian"
  CON:0 "Connaught"
  CON_DEF:0 "Connaught"
- CON_ADJ:0 "?"
+ CON_ADJ:0 "Connachtians" # ?
 
  HKO:0 "Hong Kong"
  HKO_PRC_subject:0 "Hong Kong Special Administrative Region"
@@ -3193,3 +3193,7 @@
  TEX_MEX_subject:0 "Estado de Tejas" # haha texmex
  TEX_DEF:0 "Texas"
  TEX_ADJ:0 "Texan"
+
+ IOM:0 "Mann"
+ IOM_DEF:0 "Mann"
+ IOM_ADJ:0 "Manx"
