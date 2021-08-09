@@ -5797,10 +5797,11 @@ unite_the_celts_category = {
 
 		allowed = {
 			OR = {
-				# tag = IOM
+				tag = IOM
 				tag = IRE
 				tag = NIR
 				tag = SCO
+				tag = CON
 			}
 		}
 
@@ -5841,10 +5842,11 @@ unite_the_celts_category = {
 
 		visible = {
 			OR = {
-				# original_tag = IOM
+				original_tag = IOM
 				original_tag = IRE
 				original_tag = NIR
 				original_tag = SCO
+				original_tag = CON
 			}
 			NOT = { has_global_flag = form_gaelic_union_flag }
 		}
@@ -5897,7 +5899,7 @@ unite_the_celts_category = {
 
 		allowed = {
 			OR = {
-				# tag = CRN
+				tag = CRN
 				tag = BRI
 				tag = WLS
 			}
@@ -5931,7 +5933,7 @@ unite_the_celts_category = {
 		visible = {
 			OR = {
 				original_tag = BRI
-				# original_tag = CRN
+				original_tag = CRN
 				original_tag = WLS
 			}
 			NOT = { has_global_flag = form_goidelic_union_flag }
@@ -5966,8 +5968,8 @@ unite_the_celts_category = {
 		allowed = {
 			OR = {
 				tag = BRI
-				# tag = CRN
-				# tag = IOM
+				tag = CRN
+				tag = IOM
 				tag = IRE
 				tag = NIR
 				tag = SCO
@@ -5987,8 +5989,8 @@ unite_the_celts_category = {
 		visible = {
 			OR = {
 				original_tag = BRI
-				# original_tag = CRN
-				# original_tag = IOM
+				original_tag = CRN
+				original_tag = IOM
 				original_tag = IRE
 				original_tag = NIR
 				original_tag = NIR

@@ -3198,12 +3198,12 @@
  IOM_DEF:0 "Mann"
  IOM_ADJ:0 "Manx"
 
- COR:0 "Cornwall"
- COR_DEF:0 "Cornwall"
- COR_ADJ:0 "Cornish"
+ CRN:0 "Cornwall"
+ CRN_DEF:0 "Cornwall"
+ CRN_ADJ:0 "Cornish"
 
  SHE:0 "Shetland"
- SHE_NOR_SUBJECT:0 "Autonomous Province of Hjaltland"
- SHE_SCO_SUBJECT:0 "Autonomous Isles of Shetland"
+ SHE_NOR_subject:0 "Autonomous Province of Hjaltland"
+ SHE_SCO_subject:0 "Autonomous Isles of Shetland"
  SHE_DEF:0 "Shetland"
  SHE_ADJ:0 "Shetlandic"
