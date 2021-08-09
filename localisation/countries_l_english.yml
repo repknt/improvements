@@ -3207,3 +3207,8 @@
  SHE_SCO_subject:0 "Autonomous Isles of Shetland"
  SHE_DEF:0 "Shetland"
  SHE_ADJ:0 "Shetlandic"
+
+ FAR:0 "Faroes"
+ FAR_DEN_subject:0 "Autonomous Province of the Faroes"
+ FAR_DEF:0 "the Faroes"
+ FAR_ADJ:0 "Faroese"

@@ -731,3 +731,7 @@ SHE = {
 	color = rgb { 0 101 204 }
 	color_ui = rgb { 0 101 204 }
 }
+FAR = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
