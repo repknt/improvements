@@ -19,6 +19,8 @@ country_event = {
 		name = ireland.1.a
 		
 		add_stability = -0.05
+		# lowers UK opinion of Ireland
+
 		if = {
 			limit = {
 				AND = {
