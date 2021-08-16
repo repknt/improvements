@@ -13191,6 +13191,10 @@ news_event = {
 
 	option = {
 		name = news.338.a
+		NOT = {
+			tag = IRE
+			tag = ENG
+		}
 	}
 
 	option = {
