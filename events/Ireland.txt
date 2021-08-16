@@ -60,6 +60,8 @@ country_event = {
 	option = {
 		name = ireland.1.b
 		# do nothing
+		
+		# If Ireland takes this option maybe there should be same thing as above but for the catholics
 	}
 }
 
