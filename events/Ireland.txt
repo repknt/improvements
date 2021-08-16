@@ -64,5 +64,3 @@ country_event = {
 		# If Ireland takes this option maybe there should be same thing as above but for the catholics
 	}
 }
-
-# 
