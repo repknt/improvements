@@ -13,7 +13,7 @@ country_event = {
 
 	}
 
-	# Should make this only trigger when the domions break from crown
+	# Should make this only trigger when the dominons break from crown
 	# And the UK should have to ensure their control of NI (just like the dominions)
 
 	option = {
