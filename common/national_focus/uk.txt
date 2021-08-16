@@ -8627,7 +8627,6 @@ focus_tree = {
 				}
 			}
 			
-			# I'm not sure this works...
 			hidden_effect = {
 				IRE = {
 					country_event = { id = ireland.1 days = 1 }

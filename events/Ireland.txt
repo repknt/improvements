@@ -39,6 +39,13 @@ country_event = {
 			IRE = {
 				transfer_state = 119
 			}
+
+			ENG = {
+				news_event = {
+					id = news.338
+					days = 1
+				}
+			}
 		}
 
 		# Around 2 months later: Ulster protestants will attempt to do...
@@ -54,3 +61,5 @@ country_event = {
 		# do nothing
 	}
 }
+
+# 
