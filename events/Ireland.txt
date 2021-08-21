@@ -20,6 +20,10 @@ country_event = {
 		
 		add_stability = -0.05
 		# lowers UK opinion of Ireland
+		add_opinion_modifier = {
+			target = ENG
+			modifier = ENG_seized_ni
+		}
 
 		if = {
 			limit = {
