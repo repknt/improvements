@@ -1,4 +1,4 @@
-# Commented out until playable (aka never xd)
+# # Commented out until playable (aka never xd)
 
 # focus_tree = {
 # 	id = irish_focus
@@ -35,7 +35,24 @@
 # 		}
 # 	}
 
-# 	# United, any ideology (except neutrality, as that is reserved for an unaligned UK puppet)
+# 	# Fascist path
+# 	focus = {
+# 		id = IRE_support_the_blue_shirts # I can't remember what they were called
+# 		icon = GFX_
+
+# 		prerequisite = { focus = IRE_adhere_to_the_treaty }
+# 		x = -1
+# 		y = 1
+# 		cost = 5
+# 		relative_position_id = IRE_adhere_to_the_treaty
+
+# 		completion_reward = {
+# 			# Upon the start of the civil war, the Blue shirts will be the ones who rise up instead of the IRA
+# 			add_popularity = { ideology = fascism popularity = 0.1 }
+# 		}
+# 	}
+
+# 	# United, any ideology (except neutrality and fascist)
 # 	focus = {
 # 		id = IRE_forego_the_treaty
 # 		icon = GFX_
@@ -55,23 +72,6 @@
 # 		}
 # 	}
 
-# 	# Fascist path
-# 	focus = {
-# 		id = IRE_support_the_blue_shirts # I can't remember what they were called
-# 		icon = GFX_
-
-# 		prerequisite = { focus = IRE_forego_the_treaty }
-# 		x = 1
-# 		y = 1
-# 		cost = 5
-# 		relative_position_id = IRE_forego_the_treaty
-
-# 		completion_reward = {
-# 			# Upon the start of the civil war, the Blue shirts will be the ones who rise up instead of the IRA
-# 			add_popularity = { ideology = fascism popularity = 0.1 }
-# 		}
-# 	}
-
 # 	# This can end up as either democratic or communist
 # 	focus = {
 # 		id = IRE_support_the_ira
@@ -86,6 +86,21 @@
 # 		completion_reward = {
 # 			# Up the 'RA
 # 			# No popularities required
+# 		}
+# 	}
+
+# 	focus = {
+# 		id = IRE_volunteers_to_the_nationalists
+# 		icon = GFX_
+
+# 		prerequisite = { focus = IRE_support_the_blue_shirts }
+# 		x = 0
+# 		y = 1
+# 		cost = 5
+# 		relative_position_id = IRE_support_the_blue_shirts
+
+# 		completion_reward = {
+# 			# Set rule: can send volunteers
 # 		}
 # 	}
 # }

@@ -11207,5 +11207,4 @@ focus_tree = {
 			add_ideas = ENG_spirit_of_the_industrial_revolution_idea
 		}
 	}
-
 }

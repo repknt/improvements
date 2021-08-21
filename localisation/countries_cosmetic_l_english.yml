@@ -1069,3 +1069,8 @@
  GOI_UNIFIED_democratic:0 "Goidelic Union"
  GOI_UNIFIED_fascism:0 "Goidelic State"
  GOI_UNIFIED_neutrality:0 "Free Goidelic States"
+
+ IRE_southern_communism:0 "Free Commune of Ireland"
+ IRE_southern_democratic:0 "Irish Free State"
+ IRE_southern_fascism:0 "Commonwealth of Ireland"
+ IRE_southern_neutrality:0 "Lord-Lieutenancy of Southern Ireland"
