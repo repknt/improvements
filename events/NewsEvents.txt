@@ -13211,3 +13211,33 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = news.339
+	title = news.339.title
+	desc = news.339.desc
+	picture = GFX_
+
+	major = yes
+
+	immediate = {
+		hidden_effect = {
+			IRE = { 
+				start_civil_war = {
+				ruling_party = democratic		# Loyalists
+				ideology = democratic			# IRA
+				size = 0.5
+				capital = 134
+				states = { 134 135 }
+				
+				set_cosmetic_tag = IRE_IRA
+			}
+		}
+	}	
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.339.a
+	}
+}

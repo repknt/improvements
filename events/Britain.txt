@@ -987,8 +987,12 @@ country_event = {
 
 	option = {
 		name = britain.25.a
-
+		hidden_effect = {
+			news_event = news.339
+		}
+		
 		release = IRE
+		IRE = { set_cosmetic_tag = IRE_UK }
 
 		ENG = {
 			set_autonomy = {
@@ -1046,6 +1050,8 @@ country_event = {
 				}
 			}
 		}
+
+		news_event = news.339
 	}
 
 	option = {

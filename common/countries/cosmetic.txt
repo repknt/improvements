@@ -676,7 +676,12 @@ GOI_UNIFIED = {
 	color_ui = rgb { 255 0 0 }
 }
 
-IRE_southern = {
+IRE_UK = {
 	color = rgb { 50 255 50 }
 	color_ui = rgb { 50 255 50 }
+}
+
+IRE_IRA = {
+	color = rgb { 0 200 0 }
+	color_ui = rgb { 0 200 0 }
 }
