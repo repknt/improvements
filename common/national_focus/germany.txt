@@ -5720,10 +5720,6 @@ focus_tree = {
 		icon = GFX_focus_ger_oppose_hitler
 		mutually_exclusive = { focus = GER_rhineland }
 
-		allow_branch = {
-			has_dlc = "Waking the Tiger"
-		}
-
 		available = {
 			is_puppet = no
 			has_government = fascism
@@ -7530,6 +7526,7 @@ focus_tree = {
 		id = GER_the_monarchy_compromise
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		prerequisite = { focus = GER_reestablish_free_elections }
+		mutually_exclusive = { focus = GER_no_compromises }
 		available = {
 			is_puppet = no
 			democratic > 0.4
@@ -8788,7 +8785,40 @@ focus_tree = {
 			}
 		}
 	}
+
+	### COMMUNIST / NO MONARCHY ###
+
+	focus = {
+		id = GER_no_compromises
+		icon = GFX_ # todo
+	
+		x = 10
+		y = 0
+		relative_position_id = GER_the_monarchy_compromise
+
+		prerequisite = { focus = GER_reestablish_free_elections }
+		mutually_exclusive = { focus = GER_the_monarchy_compromise }
+
+		available = {
+			is_puppet = no
+			OR = {
+				democratic > 0.4
+			}
+		}
+
+		cancel_if_invalid = yes
+		cost = 10
+		ai_will_do = {
+			value = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+			set_party_name = { ideology = democratic long_name = GER_spd_long name = GER_spd }
+			add_popularity = { ideology = democratic popularity = 0.05 }
+			add_popularity = { ideology = communism popularity = 0.05 }
+			add_stability = -0.1
+		}
+	}
 }
-
-### COMMUNIST ###
-

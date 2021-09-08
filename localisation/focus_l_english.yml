@@ -2292,3 +2292,7 @@
  IRE_support_the_blue_shirts_desc:0 "The Blue Shirts... something something fascism" # I don't know anything about them lmao
  IRE_support_the_ira:0 "Support the Anti-Treatyites"
  IRE_support_the_ira_desc:0 "After the Anglo-Irish Treaty, a large section of the IRA split off in opposition to it. This then led to the civil war, in which the anti-treatyites were defeated and Ireland remained partitioned."
+
+ # New German
+ GER_no_compromises:0 "No Compromises"
+ GER_no_compromises_desc:0 "Archaic ideas such a monarchy have no place in a modern Germany. We don't care if the military has royalist leanings, what can they do to stop us?\n\n§RThis will lead to civil war!§!" 
