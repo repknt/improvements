@@ -8819,10 +8819,21 @@ focus_tree = {
 			add_popularity = { ideology = democratic popularity = 0.05 }
 			add_popularity = { ideology = communism popularity = 0.05 }
 			add_stability = -0.1
+
+			# create_country_leader = {
+			# 	name = "Hans Vogel"
+			# 	desc = "POLITICS_HANS_VOGEL_DESC"
+			# 	picture = "GFX_portrait_hans_vogel"
+			# 	expire = "1965.1.1"
+			# 	ideology = socialism
+			# 	traits = {
+			
+			# 	}
+			# }
 		}
 	}
 
-	focus = {
-		id = GER_
-	}
+	# focus = {
+	# 	id = GER_
+	# }
 }
