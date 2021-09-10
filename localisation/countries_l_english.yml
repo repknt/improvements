@@ -3173,10 +3173,7 @@
  vojvodina:0 "Vojvodina"
  vojvodina_DEF:0 "Vojvodina"
  vojvodina_ADJ:0 "Vojvodinian"
- KAR:0 "Karelia"
- KAR_communism:0 "Karelian SSR"
- KAR_DEF:0 "Karelia"
- KAR_ADJ:0 "Karelian"
+
  CON:0 "Connaught"
  CON_DEF:0 "Connaught"
  CON_ADJ:0 "Connachtians" # ?
