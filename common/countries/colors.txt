@@ -703,10 +703,6 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
-KAR = {
-	color = rgb { 78 108 50 }
-	color_ui = rgb { 78 108 50 }
-}
 CON = {
 	color = rgb { 12 28 141 }
 	color_ui = rgb { 12 28 141 }
