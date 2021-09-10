@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		TEX_lone_star = {
-			picture = lone_star # wip
+			picture = lone_star
 			allowed = {
 				original_tag = TEX
 				always = no
