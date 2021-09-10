@@ -8821,4 +8821,8 @@ focus_tree = {
 			add_stability = -0.1
 		}
 	}
+
+	focus = {
+		id = GER_
+	}
 }
