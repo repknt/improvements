@@ -1,0 +1,17 @@
+GER_united_front_factions = {
+	priority = 10
+
+	icon = power_struggle
+
+	picture = GFX_wip
+
+	scripted_gui = ger_civil_war_factions_decision_ui
+
+	visible = {
+		has_country_flag = GER_factions_unlocked_flag # Unlocked after the UF wins 2nd German Civl War
+	}
+
+	allowed = {
+		original_tag = GER
+	}
+}

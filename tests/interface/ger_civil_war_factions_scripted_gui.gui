@@ -1,0 +1,87 @@
+@FACTION_TEXT_X = 55
+@LOYALTY_TEXT_X = 240
+@POPULARITY_TEXT_X = 380
+@FACTION_ICONS_X = 10
+@FACTION_NAMES_X = 55
+@HEADERS_Y = 0
+guiTypes = {
+
+	containerWindowType = {
+		name = "ger_internal_factions_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 210 }
+
+		#ICONS
+		iconType = {
+			name ="spd_icon"
+			spriteType = "GFX_decision_faction_ger_spd"
+			position = { x = @FACTION_ICONS_X y = 30 }
+		}
+
+		instantTextBoxType = {
+			name ="spd_name_text"
+			position = { x = @FACTION_NAMES_X y = 40 }
+			font = "hoi_18mbs"
+			text = "GER_spd_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="zveno_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 30 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = GER_SPD_TOOLTIP
+		}
+
+		iconType = {
+			name ="sadp_icon"
+			spriteType = "GFX_decision_faction_ger_sapd"
+			position = { x = @FACTION_ICONS_X y = 75 }
+		}
+
+		instantTextBoxType = {
+			name ="sapd_name_text"
+			position = { x = @FACTION_NAMES_X y = 85 }
+			font = "hoi_18mbs"
+			text = "GER_sapd_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="sapd_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 75 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = GER_SAPD_TOOLTIP
+		}
+
+		iconType = {
+			name ="KPD_icon"
+			spriteType = "GFX_decision_faction_ger_kpd"
+			position = { x = @FACTION_ICONS_X y = 120 }
+		}
+
+		instantTextBoxType = {
+			name ="kpd_name_text"
+			position = { x = @FACTION_NAMES_X y = 130 }
+			font = "hoi_18mbs"
+			text = "GER_kpd_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="kpd_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 120 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = GER_KPD_TOOLTIP
+		}
+	}
+}
