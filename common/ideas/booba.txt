@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		booba_debug = {
+			picture = booba
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				is_ai = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				female_random_operative_chance = 100
+				female_random_army_leader_chance = 100
+				female_random_admiral_chance = 100
+				female_random_country_leader_chance = 100
+			}
+		}
+	}
+}

@@ -5611,4 +5611,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/lone_star.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_booba"
+		texturefile = "gfx/interface/ideas/booba.dds"
+	}
+
 }

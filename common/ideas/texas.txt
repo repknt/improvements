@@ -22,9 +22,10 @@ ideas = {
 	}
 
 	# im keeping these african for the memes KEKW
-	ideas = {
-		# MILITARY
-		political_advisor = {
+	# also too lazy to fix indent thing
+
+	# MILITARY
+	political_advisor = {
 		
 			TEX_democratic_guy = {
 				
@@ -356,5 +357,4 @@ ideas = {
 			}
 	
 		}
-	}
 }
