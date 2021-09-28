@@ -3209,3 +3209,21 @@
  FAR_DEN_subject:0 "Autonomous Province of the Faroes"
  FAR_DEF:0 "the Faroes"
  FAR_ADJ:0 "Faroese"
+
+ IST:0 "Istria"
+ IST_ITA_subject:0 "Autonomous Province of Pola"
+ IST_YUG_subject:0 "Banovina of Istria"
+ IST_CRO_subject:0 "Croatian Istria"
+ IST_SLV_subject:0 "Slovene Istria"
+ IST_AUS_subject:0 "Istrian March"
+ IST_DEF:0 "Istria"
+ IST_ADJ:0 "Istrian"
+
+ NCY:0 "Northern Cyprus"
+ NCY_TUR_subject:0 "Turkish Republic of Northern Cyprus"
+ NCY_DEF:0 "Northern Cyprus"
+ NCY_ADJ:0 "Turkish Cypriot"
+
+ TRS:0 "Free Territory of Trieste"
+ TRS_DEF:0 "Trieste"
+ TRS_ADJ:0 "Triestine"

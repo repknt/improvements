@@ -728,6 +728,18 @@ SHE = {
 	color_ui = rgb { 0 101 204 }
 }
 FAR = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+IST = {
+	color = rgb { 0 173 240 }
+	color_ui = rgb { 0 173 240 }
+}
+NCY = {
+	color = rgb { 170 63 63 }
+	color_ui = rgb { 170 63 63 }
+}
+TRS = {
+	color = rgb { 139 3 3 }
+	color_ui = rgb {139 3 3 }
 }

@@ -1,0 +1,25 @@
+state={
+	id=815
+	name="STATE_815"
+	
+	state_category = rural
+
+	history={
+		victory_points = { 11735 1 }
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = IST
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		11735
+	}
+	manpower=1000 #temp
+	buildings_max_level_factor=1.000
+}
