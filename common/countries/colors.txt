@@ -169,8 +169,8 @@ GEO = {
     color_ui = rgb { 255 150 150 }
 }
 GER = {
-	color = hsv { 0.1 0.15 0.4 }
-	color_ui = hsv { 0.1 0.15 0.4 }
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 54 54 54 }
 }
 GUA = {
     color = rgb { 72 49 112 }
@@ -716,5 +716,5 @@ D49 = {
 }
 D50 = {
 	color = rgb { 210 106 47 }
-	color_ui = rgb { 21O 106 47 }
+    color_ui = rgb { 210 106 47 }
 }
