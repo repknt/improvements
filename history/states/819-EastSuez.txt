@@ -1,0 +1,16 @@
+state = {
+	id = 819
+	name = "STATE_819"
+	manpower = 1000 # temp
+	state_category = town
+
+	history = {
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = EGY
+	}
+
+	provinces = { 13238 13239 }
+}
