@@ -90,7 +90,7 @@ dalmatia = {
     color = rgb { 46 128 188 }
     color_ui = rgb { 46 128 188 }
 }
-ENG_imperial_federation_india_unified = {
+ENG_imperial_federtryation_india_unified = {
     color = rgb { 180 0 0 }
     color_ui = rgb { 180 0 0 }
 }
@@ -114,13 +114,13 @@ GAE_UNIFIED = {
     color = rgb { 0 160 64 }
     color_ui = rgb { 0 160 64 }
 }
-GCO_UNIFIED - {
+GCO_UNIFIED = {
     color = { 255 255 51 }
     color_ui = { 255 255 51 }
 }
 GER_civil_war = {
-    color = rgb { 54 54 54 }
-    color_ui = rgb { 54 54 54 }
+    color = rgb { 84 84 84 }
+    color_ui = rgb { 84 84 84 }
 }
 GER_german_empire = {
     color = rgb { 128 128 128 }
