@@ -144,21 +144,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = soc_democracy
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 1
-	communism = 2
+	soc_democracy = 51
+	liberalism = 24
+	conservatism = 21
+	auth_democracy = 4
 }
 
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = soc_democracy
 		last_election = "1939.4.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -172,7 +173,7 @@ create_country_leader = {
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = soc_dem_ideology
 	traits = {
 		#
 	}
