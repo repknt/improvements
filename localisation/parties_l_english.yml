@@ -37,12 +37,8 @@
  falangism:0 "Falangism"
  fascism_ideology:0 "Fascism"
  nat_syndicalism:0 "National Syndicalism"
- rexism:0 "Rexism"
-
- nazism:0 "Nazism"
-
  nazism_ideology:0 "Nazism"
- strasserism:0 "Strasserism"
+ rexism:0 "Rexism"
 
  # unaligned
 
@@ -61,11 +57,27 @@
 
  # PARTIES
 
+ ## DENMARK
+ # DEN_anarchism_party:0 ""
+ # DEN_anarchism_party_long:0 ""
+
  DEN_auth_democracy_party:0 "LS"
  DEN_auth_democracy_party:0 "Landsbrugernes Sammenslutning"
+
  DEN_conservative_party:0 "KFP"
  DEN_conservative_party_long:0 "Det Konservative Folkeparti"
+
+ #  DEN_dem_socialism_party:0 "" 
+ #  DEN_dem_socialism_party_long:0 ""
+
+ DEN_fascism_party:0 "DNSAP"
+ DEN_fascism_party_long:0 "Danmarks Nationalsocialistiske Arbejderparti"
+
  DEN_liberal_party:0 "FV"
  DEN_liberal_party_long:0 "Det Forenede Venstre"
+
+ # DEN_pat_autocracy_party:0 "BBGP"
+ # DEN_pat_autocracy_party_long:0 "Bokoens Baseret Gamers Parti"
+
  DEN_soc_democracy_party:0 "SDP"
  DEN_soc_democracy_party_long:0 "Socialdemokratisk Parti"

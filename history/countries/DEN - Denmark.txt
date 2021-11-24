@@ -150,10 +150,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	soc_democracy = 51
-	liberalism = 24
-	conservatism = 21
-	auth_democracy = 4
+	soc_democracy = 43
+	liberalism = 34
+	conservatism = 19
+	anarchism = 3
+	communism = 1
 }
 
 
