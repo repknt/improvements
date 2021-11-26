@@ -11,3 +11,5 @@ tags={
 name="Improvements"
 supported_version="1.10.*"
 remote_file_id="2562372429"
+
+replace_path="history/states"
