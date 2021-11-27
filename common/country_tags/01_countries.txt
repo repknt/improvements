@@ -1,0 +1,2 @@
+KOS	= "countries/Kosovo.txt"
+HAT = "countries/SHATC.txt"
