@@ -1,9 +1,0 @@
-NIR_reunite_ulster_cat = {
-	icon = nir_
-	allowed = {
-		original_tag = NIR
-	}
-	visible = {
-		
-	}
-}
