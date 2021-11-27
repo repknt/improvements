@@ -9,7 +9,5 @@ tags={
 	"National Focuses"
 }
 name="Improvements"
-supported_version="1.10.*"
+supported_version="1.11.*"
 remote_file_id="2562372429"
-
-replace_path="history/states"
