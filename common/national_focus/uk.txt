@@ -1564,6 +1564,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = uk_waves_focus
 		cost = 10
+		allow_branch = {
+			NOT = { has_completed_focus = uk_battleship_focus }
+		}
 		ai_will_do = {
 			factor = 0.25
 		}
@@ -1592,6 +1595,10 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 1
+		}
+
+		allow_branch = {
+			NOT = { has_completed_focus = uk_carrier_focus }
 		}
 
 		available_if_capitulated = yes
