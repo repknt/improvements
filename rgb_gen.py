@@ -1,5 +1,3 @@
-#stolen lol
-
 import random
 
 r = random.randint(0,255)
