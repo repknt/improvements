@@ -1,6 +1,0 @@
-scripted_gui = {
-	ger_civil_war_factions_decision_ui = {
-		window_name = "ger_civil_war_factions_decision_ui_window"
-		context_type = decision_category
-	}
-}

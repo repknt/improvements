@@ -1,3 +1,0 @@
-GER_internal_factions = {
-	# blah blah blah
-}
