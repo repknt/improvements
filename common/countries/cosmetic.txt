@@ -4,8 +4,8 @@ MAL_UK = {
 }
 
 RAJ_UK = {
-	color = rgb { 158 50 50 }
-	color_ui = rgb { 158 50 50 }
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
 }
 
 RAJ_FREE = {
