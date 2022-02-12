@@ -1,2 +1,3 @@
 KOS	= "countries/Kosovo.txt"
 HAT = "countries/SHATC.txt"
+SIC = "countries/Sichuan.txt"

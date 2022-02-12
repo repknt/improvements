@@ -1,0 +1,26 @@
+state = {
+	id = 836
+	name = "STATE_836"
+	state_category = town
+
+	manpower = 1000 # temp
+
+	history = {
+		owner = ENG
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 3
+			12049 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 12049 5 }
+		victory_points = { 4073  3 }
+	}
+
+	provinces = {
+		4073 12049
+	}
+
+	local_supplies = 0.0
+}
