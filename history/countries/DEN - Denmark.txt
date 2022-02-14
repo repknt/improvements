@@ -173,6 +173,23 @@ set_popularities = {
 
 set_convoys = 40
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = ICE
+		autonomy_dominion = autonomy_dominion
+		freedom_level = 0.4
+	}
+	else = {
+		puppet = ICE
+	}
+}
+
 ### VARIANTS ###
 # 1936 Start #
 if = {
