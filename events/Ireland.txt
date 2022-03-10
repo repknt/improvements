@@ -1,0 +1,18 @@
+add_namespace = ireland
+
+# Gets Northern Ireland, whatever reason
+country_event = {
+	id = ireland.1
+	title = ireland.1.t
+	desc = ireland.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ireland.1.a
+		hidden_effect = {
+			news_event = { days = 1 id = news. }
+		}
+	}
+}
