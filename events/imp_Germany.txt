@@ -1,0 +1,18 @@
+add_name_space = imp_germany
+
+# Deutschland ist Verloren
+country_event = {
+	id = imp_germany.1
+	title = imp_germany.1.t
+	desc = imp_germany.1.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		surrender_progress = 90
+	}
+
+	option = {
+		name = imp_germany.1.a
+	}
+}
