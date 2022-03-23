@@ -3242,35 +3242,6 @@ focus_tree = {
 			add_manpower = 100000
 			if = {
 				limit = {
-					has_full_control_of_state = 703
-					has_full_control_of_state = 704
-				}
-				release = HAT
-				if = {
-					limit = {
-						has_dlc = "Together for Victory"
-					}
-					set_autonomy = { target = HAT autonomy_state = autonomy_dominion }
-				}
-				if = {
-					limit = {
-						NOT = { has_dlc = "Together for Victory" }
-					}
-					puppet = HAT
-				}
-				hidden_effect = {
-					every_other_country = {
-						limit = {
-							has_war_with = ENG
-						}
-						HAT = {
-							add_to_war = { targeted_alliance = ENG enemy = PREV hostility_reason = asked_to_join }
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
 					has_full_control_of_state = 767
 					has_full_control_of_state = 551
 					has_full_control_of_state = 549

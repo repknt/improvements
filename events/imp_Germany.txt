@@ -1,4 +1,4 @@
-add_name_space = imp_germany
+add_namespace = imp_germany
 
 # Deutschland ist Verloren
 country_event = {
@@ -9,7 +9,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		surrender_progress = 90
+		surrender_progress > 90
 	}
 
 	option = {

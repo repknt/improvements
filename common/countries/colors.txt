@@ -253,8 +253,8 @@ VEN = {
 	color_ui = rgb { 249 146 98 }
 }
 YUN = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 143 20 20 }
+	color_ui = rgb { 143 20 20 }
 }
 USA = {
 	color = rgb { 20 133 237 }
@@ -822,6 +822,6 @@ HAT = {
 	color_ui = rgb { 166 164 21 }
 }
 SIC = {
-	color = { 154 115 56 }
+	color = rgb { 154 115 56 }
 	color_ui = rgb { 154 115 56 }
 }
