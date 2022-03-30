@@ -16,3 +16,22 @@ country_event = {
 		name = imp_germany.1.a
 	}
 }
+
+# Hitler Dead
+country_event = {
+	id = imp_germany.2
+	title = imp_germany.2.t
+	desc = imp_germany.2.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		any_enemy_country = {
+			controls_province = 6521 # Berlin
+		}
+	}
+
+	option = {
+		name = imp_germany.2.a
+	}
+}

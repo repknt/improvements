@@ -3,6 +3,11 @@
  ireland.1.d:0 "We now have full control over the North. Trí beannachtaí d'Éirinn!"
  ireland.1.a:1 "Tá Éire Saor!"
  ireland.1.b:2 "Éirinn go Brách!"
+
  imp_germany.1.t:0 "Deutschland ist Verloren..."
  imp_germany.1.d:0 "There is no winning now. We have lost. All we can do now is pray for mercy. Gott mit uns."
  imp_germany.1.a:0 "Gott Mit Uns"
+
+ imp_germany.2.t:0 "Hitler Found Dead"
+ imp_germany.2.d:0 "As (country) troops took control of Berlin, reports of the Führer's death... (wip)"
+ imp_germany.2.a:0 "Davaj, davaj!" # USSR
