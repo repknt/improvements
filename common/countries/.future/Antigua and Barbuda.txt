@@ -1,6 +1,0 @@
-# States : *** Antigua, *** Barbuda
-
-graphical_culture = african_gfx
-graphical_culture_2d = africa_2d
-
-color = { 218 72 171 }
