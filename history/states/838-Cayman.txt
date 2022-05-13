@@ -1,0 +1,27 @@
+state = {
+	id=838
+	name="STATE_838"
+	state_category = pastoral
+
+	manpower=1000 # temp
+
+	history = {
+		owner = ENG
+		# add_core_of = CAY # Cayman Islands
+
+		# victory_points = { 13237 1 }
+
+		buildings = {
+			infrastructure = 1
+			13237 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces = {
+		13237 
+	}
+
+	local_supplies = 0.0
+}

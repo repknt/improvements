@@ -1,0 +1,6 @@
+# States: 385 Oregon, 386 Washington, 473 British Columbia, 
+
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
+
+color = { 155 72 167 }

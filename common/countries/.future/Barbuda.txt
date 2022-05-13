@@ -1,0 +1,6 @@
+# States: *** Barbuda
+
+graphical_culture = african_gfx
+graphical_culture_2d = africa_2d
+
+color = { 188 91 154 }

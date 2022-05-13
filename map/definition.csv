@@ -13192,7 +13192,7 @@
 13191;167;56;148;lake;false;lakes;0
 13192;19;97;36;lake;false;lakes;0
 13193;30;167;209;sea;true;ocean;0
-13194;206;169;161;lake;false;lakes;0
+13194;206;169;161;land;true;jungle;3
 13195;169;3;103;land;false;mountain;3
 13196;11;82;182;land;true;plains;2
 13197;224;93;214;land;false;desert;6
@@ -13235,3 +13235,4 @@
 13234;210;241;113;land;false;hills;2
 13235;233;179;9;land;false;mountain;2
 13236;123;225;14;land;true;jungle;5
+13237;189;229;154;land;true;plains;3
