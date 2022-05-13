@@ -1,0 +1,39 @@
+focus_tree = {
+	id = roman_tree
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_cosmetic_tag = SPQR_UNIFIED
+		}
+	}
+
+	default = no
+	continuous_focus_position = {
+		x = 0 # Temp
+		y = 0 # Temp
+	}
+
+	focus = {
+		id = SQPR_roma_invicta
+		icon = GFX_
+		x = 1
+		y = 1
+		
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+			# ↓ TODO
+			# add_idea = roma_invicta
+		}
+	}
+}
