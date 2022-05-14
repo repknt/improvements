@@ -1,0 +1,13 @@
+﻿l_german:
+ ireland.1.t:0 "Nordirland gehört uns!"
+ ireland.1.d:0 "Wir haben jetzt die volle Kontrolle über den Norden. Trí beannachtaí d'Éirinn!"
+ ireland.1.a:1 "Tá Éire Saor!"
+ ireland.1.b:2 "Éirinn go Brách!"
+
+ imp_germany.1.t:0 "Deutschland ist Verloren..."
+ imp_germany.1.d:0 "Jetzt können wir auf keinen Fall gewinnen. Wir haben verloren. Jetzt können wir nur noch um Gnade bitten. Gott mit uns."
+ imp_germany.1.a:0 "Gott Mit Uns"
+
+ imp_germany.2.t:0 "Hitler Tot Aufgefunden"
+ imp_germany.2.d:0 "Als (Landes-)Truppen die Kontrolle über Berlin übernahmen, meldeten sich Berichte über den Tod des Führers... (wip)"
+ imp_germany.2.a:0 "Davaj, davaj!" # (UdSSR)
