@@ -1,7 +1,7 @@
 
 state={
 	id=3
-	name="STATE_3"
+	name="STATE_3" # Schweiz
 	manpower = 2211689
 	resources={
 		aluminium=18 # was: 28
@@ -12,7 +12,7 @@ state={
 
 	history={
 		owner = SWI
-		victory_points = { 9620 15 }
+		victory_points = { 9620 15 } 
 		buildings = {
 			infrastructure = 3
 			arms_factory = 4

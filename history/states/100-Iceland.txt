@@ -1,7 +1,7 @@
 state=
 {
 	id=100
-	name="STATE_100"
+	name="STATE_100" # Ísland
 	manpower = 115870
 	
 	state_category = rural
@@ -10,7 +10,7 @@ state=
 	history=
 	{
 		owner = ICE
-		victory_points = { 12674 1 }
+		victory_points = { 12674 1 } # Reykjavík
 		buildings = {
 			infrastructure = 1
 			12674 ={
