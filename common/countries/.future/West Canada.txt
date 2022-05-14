@@ -1,6 +1,0 @@
-# States: 467 Manitoba, 469 Saskatchewan, 470 Alberta, 471 Northwestern Canda, 473 British Columbia, 683 Northeastern Canda
-
-graphical_culture = commonwealth_gfx
-graphical_culture_2d = commonwealth_2d
-
-color = { 208 232 198 }
