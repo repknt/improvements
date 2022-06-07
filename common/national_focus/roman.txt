@@ -30,10 +30,46 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 200
 			add_stability = 0.1
-			# ↓ TODO
-			# add_idea = roma_invicta
+			add_ideas = roma_invicta_1
+		}
+	}
+
+	focus = {
+		id = SQPR_revive_the_legions
+		icon = GFX_
+		x = 3
+		y = 3
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			remove_ideas = roma_invicta_1
+			add_ideas = roma_invicta_2
+			# (ADD 10 UNITS OF ROMAN LEGION TO LATIUM (#2)
+		}
+	}
+
+	focus = {
+		id = SQPR_unite_the_latins
+		icon = GFX_
+		x = 5
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			remove_ideas = roma_invicta_2
+			add_ideas = roma_invicta_3
 		}
 	}
 }

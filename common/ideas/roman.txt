@@ -1,0 +1,65 @@
+ideas = {
+	country = {
+		SQPR_roma_invicta_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = blank
+
+			modifier = {
+				political_power_gain = 0.2
+				# add more...
+			}
+		}
+
+		SQPR_roma_invicta_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = blank
+
+			modifier = {
+				political_power_gain = 0.2
+				army_attack_factor = 0.2
+				army_org_Factor = 0.2
+				# add more...
+			}
+		}
+
+		SQPR_roma_invicta_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = blank
+
+			modifier = {
+				political_power_gain = 0.2
+				army_attack_factor = 0.2
+				army_attack_factor = 0.2
+				justify_war_goal_time = -0.5
+				# add more...
+			}
+		}
+	}
+}

@@ -1,5 +1,0 @@
-ABR = "countries/Alberta.txt"      # Alberta
-GNL = "countries/Greenland.txt"    # Greenland
-GDL = "countries/Guadeloupe.txt"   # Guadeloupe
-QUE = "countries/Quebec.txt"       # Quebec
-SAS = "countries/Saskatchewan.txt" # Saskatchewan

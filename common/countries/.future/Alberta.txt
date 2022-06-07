@@ -1,6 +1,0 @@
-# States: 470 Alberta
-
-graphical_culture = commonwealth_gfx
-graphical_culture_2d = commonwealth_2d
-
-color = { 60 242 145 }
