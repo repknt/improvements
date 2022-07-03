@@ -7774,6 +7774,7 @@ focus_tree = {
 		id = GER_the_monarchy_compromise
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		prerequisite = { focus = GER_reestablish_free_elections }
+		mutually_exclusive = { focus = GER_no_compromises }
 		available = {
 			is_subject = no
 			democratic > 0.4
@@ -9066,6 +9067,33 @@ focus_tree = {
 					add_ideas = GER_pool_technical_know_how
 				}
 			}
+		}
+	}
+
+	focus = {
+		id = GER_no_compromises
+		icon = GFX_
+		prerequisite = { focus = GER_reestablish_free_elections }
+		available = {
+			is_subject = no
+			democratic > 0.4
+		}
+		x = 4
+		y = 0
+		relative_position_id = GER_the_monarchy_compromise
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = {
+			focus = GER_the_monarchy_compromise
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			add_popularity = { ideology = communism popularity = 0.1 }
+			add_stability = -0.05
 		}
 	}
 }
