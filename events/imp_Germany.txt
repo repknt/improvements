@@ -9,7 +9,9 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		surrender_progress > 90
+		GER = {
+			surrender_progress > 90
+		}
 	}
 
 	option = {
